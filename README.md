@@ -9,6 +9,14 @@ A simple Python command-line tool to count the total number of files in a folder
 - Prints the python file count and text file count with their extension as keyword.
 - Recursively Counts the sub-folders files.
 
+### JSON Output
+
+You can get machine-readable output using the `--json` flag.
+
+```bash
+python analyze.py . --json
+
+
 ## How to run
 
 ```bash
